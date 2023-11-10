@@ -1,0 +1,45 @@
+/* estilos generales para el body */
+body{    
+    overflow-x: hidden;
+}
+/* estilos personalizados del navbar */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.781);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+/* estilos del contenedor de la imagenes de portada */
+.contenedorpor {
+    width: 100vw;
+    height: auto;
+}
+/* estilos imagenes de portada */
+.contenedorpor img {
+    width: 100%;
+    height: auto;
+}
+/* estilos imagenes de poortada 2  */
+.contenedorpor .dos{
+    margin-top: 50px;
+}
+.bg-dark .text-light .py-4{
+    margin-top: 50px;
+}
+/* estilos imagenes de prendas debajo de las de portada */
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+}
+/* estilos del grid de colecciones  */
+.grid-item {
+    width: 100%;
+}
+/* estilos de los elementos del grid */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

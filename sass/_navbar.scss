@@ -1,0 +1,9 @@
+@import 'variables';
+
+.navbar {
+  background-color: get-variable(background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

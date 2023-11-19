@@ -1,0 +1,11 @@
+@import 'variables';
+
+.imagenes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: get-variable(grid-gap);
+}
+
+.grid-item {
+  width: 100%;
+}

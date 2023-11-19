@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 /* estilos generales para el body */
 body{    
     overflow-x: hidden;
@@ -37,9 +42,18 @@ body{
 .grid-item {
     width: 100%;
 }
-/* estilos de los elementos del grid */
-.grid-item img {
+/* estilos deel video*/
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción de aspecto del video */
+    padding-top: 30px; /* Espacio adicional arriba del contenedor */
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 50;
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
 }

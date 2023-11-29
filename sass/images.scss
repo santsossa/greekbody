@@ -1,0 +1,27 @@
+@import 'variables';
+.contenedorpor {
+    width: 100vw;
+    height: auto;
+  }
+  
+  // Estilos imágenes de portada
+  .contenedorpor img {
+    width: 100%;
+    height: auto;
+  }
+  
+  // Estilos imágenes de portada 2
+  .contenedorpor .dos {
+    margin-top: $margin-top;
+  }
+  // Estilos imágenes de prendas debajo de las de portada
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: $gap;
+  }
+  
+  // Estilos del grid de colecciones
+  .grid-item {
+    width: 100%;
+  }

@@ -1,0 +1,23 @@
+.contenedorpor {
+  width: 100vw;
+  height: auto;
+}
+
+.contenedorpor img {
+  width: 100%;
+  height: auto;
+}
+
+.contenedorpor .dos {
+  margin-top: 50px;
+}
+
+.imagenes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 100%;
+}
